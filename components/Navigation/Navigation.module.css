@@ -1,0 +1,12 @@
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.list__item {
+  padding: 10px 20px;
+}
+
+.list__item:hover {
+  text-decoration: underline;
+}
