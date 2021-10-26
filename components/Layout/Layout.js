@@ -4,7 +4,8 @@ import styles from "./Layout.module.css";
 const Layout = ({ children }) => {
   const navigationList = [
     { index: 1, name: "home", href: "/" },
-    { index: 2, name: "about", href: "/about" },
+    { index: 2, name: "people", href: "/people" },
+    { index: 3, name: "about", href: "/about" },
   ];
 
   return (
