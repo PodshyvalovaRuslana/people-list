@@ -9,6 +9,10 @@
 }
 
 .footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;

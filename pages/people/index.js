@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "../../styles/People.module.css";
 
 export const getStaticProps = async () => {
@@ -13,7 +14,9 @@ const People = ({ people }) => (
   <ol className={styles.list}>
     {people.map((person) => (
       <li key={person.id} className={styles.item}>
-        {person.name}
+        <Link href={`/people/${person.id} `}>
+          <a>{person.name}</a>
+        </Link>
       </li>
     ))}
   </ol>

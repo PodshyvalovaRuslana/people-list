@@ -1,0 +1,13 @@
+.person {
+  padding: 50px 150px;
+}
+
+.person__company, 
+.person__email,
+.person__name {
+  font-weight: bold;
+}
+
+.person__company {
+  text-transform: uppercase;
+}
